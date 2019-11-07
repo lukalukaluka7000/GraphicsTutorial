@@ -8,7 +8,6 @@
 *.cachefile
 *.db
 *.ipch
-
 .vs/
 
 # gitignore for C++
@@ -18,8 +17,7 @@
 *.o
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
+#*.so
 
 # Compiled Static libraries
 *.lai
@@ -27,10 +25,8 @@
 *.a
 
 # Visual Studio Files
-Debug
-Release
+x64
 *.suo
 *.csproj.user
 *.vbproj.user
-
 *sdf
