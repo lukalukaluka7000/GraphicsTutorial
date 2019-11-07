@@ -3,10 +3,10 @@
 #include"MainGame.h"
 //#include <SDL/include/SDL.h>
 //creates its own function 
-#include<glm/glm.hpp>
+#include<include/glm/glm.hpp>
 //#include<include/GL/glew.h>
 
-int main(int argc, char** argv) {
+int main(int argc, char* argv[]) {
 	//SDL_Init(SDL_INIT_EVERYTHING);
 	MainGame mainGame;
 	mainGame.run();

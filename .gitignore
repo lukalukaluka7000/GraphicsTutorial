@@ -8,7 +8,7 @@
 *.cachefile
 *.db
 *.ipch
-*.png
+
 .vs/
 
 # gitignore for C++
