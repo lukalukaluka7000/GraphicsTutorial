@@ -15,6 +15,7 @@
 *.slo
 *.lo
 *.o
+#made a change
 
 # Compiled Dynamic libraries
 #*.so
