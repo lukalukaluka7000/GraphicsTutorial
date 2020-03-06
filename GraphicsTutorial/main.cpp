@@ -1,10 +1,7 @@
 #include<iostream>
 #include<Windows.h>
-#include"MainGame.h"
-//#include <SDL/include/SDL.h>
-//creates its own function 
-#include<include/glm/glm.hpp>
-//#include<include/GL/glew.h>
+#include"MainGame.h" 
+#include<glm/glm.hpp>
 
 int main(int argc, char* argv[]) {
 	//SDL_Init(SDL_INIT_EVERYTHING);

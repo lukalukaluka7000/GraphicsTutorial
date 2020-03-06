@@ -1,8 +1,12 @@
 #pragma once
+#include<iostream>
 #include<vector>
-class IOManager
-{
-public:
-	static bool readFileToBuffer(std::string filePath, std::vector<unsigned char>& buffer); //vector of chars
-};
+
+namespace Engine {
+	class IOManager
+	{
+	public:
+		static bool readFileToBuffer(std::string filePath, std::vector<unsigned char>& buffer); //vector of chars
+	};
+}
 

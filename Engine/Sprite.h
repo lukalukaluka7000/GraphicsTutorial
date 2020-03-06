@@ -1,33 +1,36 @@
 #pragma once
 
-#include<include/GL/glew.h>
+#include<GL/glew.h>
 
 #include<string>
 #include"GLTexture.h"
 #include "ResourceManager.h"
 
-class Sprite
-{
-public:
-	Sprite();
-	~Sprite();
 
-	void init(float x, float y, float width, float height, std::string texturePath);
+namespace Engine {
+	class Sprite
+	{
+	public:
+		Sprite();
+		~Sprite();
 
-	//render the sprite
-	void draw();
+		void init(float x, float y, float width, float height, std::string texturePath);
 
-private:
-	//private to store that variables
-	int _x;
-	int _y;
-	int _width;
-	int _height;
+		//render the sprite
+		void draw();
 
-	GLTexture _texture;
+	private:
+		//private to store that variables
+		int _x;
+		int _y;
+		int _width;
+		int _height;
 
-	//unsigned int _vboID; not guaranted to be 32 bits
-	//open gl provides us with GLuint guaranted to be 32 bits
-	GLuint _vboID;
-};
+		GLTexture _texture;
 
+		//unsigned int _vboID; not guaranted to be 32 bits
+		//open gl provides us with GLuint guaranted to be 32 bits
+		GLuint _vboID;
+	};
+
+}
