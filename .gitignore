@@ -1,0 +1,32 @@
+#Visual C++ cache files
+*.aps
+*.ncb
+*.log
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.db
+*.ipch
+.vs/
+
+# gitignore for C++
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+#*.so
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Visual Studio Files
+x64
+*.suo
+*.csproj.user
+*.vbproj.user
+*sdf
