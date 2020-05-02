@@ -1,0 +1,45 @@
+#Visual C++ cache files
+*.aps
+*.ncb
+*.log
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.db
+*.ipch
+.vs/
+
+# gitignore for C++
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+#*.so
+<<<<<<< HEAD
+#*.dylib
+=======
+>>>>>>> b601b96a92a10ac7168d7c02b7ff61d86f7179f5
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Visual Studio Files
+<<<<<<< HEAD
+Debug
+Release
+*.suo
+*.csproj.user
+*.vbproj.user
+
+=======
+x64
+*.suo
+*.csproj.user
+*.vbproj.user
+>>>>>>> b601b96a92a10ac7168d7c02b7ff61d86f7179f5
+*sdf
